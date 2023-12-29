@@ -6,9 +6,9 @@ function App() {
 
     return (
       <div className='app_wrapper' >
-          <BrowserRouter>
+          <HashRouter>
                   <AppRouter/>
-          </BrowserRouter>
+          </HashRouter>
       </div>
   );
 }
