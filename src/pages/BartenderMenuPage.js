@@ -35,6 +35,7 @@ const BartenderMenuPage = () => {
     
   
     return ( 
+      <div className='app_wrapper' >
         <div className='menu_content_back'>
             <div className='menu_panel_top'>
                   <img  src={image_dec_0} style={{height:"110px",position:'absolute',top:0,left:0}} />
@@ -85,6 +86,7 @@ const BartenderMenuPage = () => {
                  
               </div>
              
+            </div>
             </div>
         
     )
