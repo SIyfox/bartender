@@ -1,14 +1,20 @@
 import React from "react";
-import {BrowserRouter} from 'react-router-dom'
+
 import AppRouter from "./components/AppRouter";
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+
+import BartenderHomePage from "./pages/BartenderMenuPage";
+import BartenderOrderPage from "./pages/BartenderOrderPage"
 function App() {
 
     return (
       <div className='app_wrapper' >
           <HashRouter>
-                  <AppRouter/>
-          </HashRouter>
+            <Routes>    
+                <Route path="/" element={<BartenderHomePage />} />
+                <Route path="/orders" element={<BartenderOrderPage />} />
+            </Routes>
+        </HashRouter>
       </div>
   );
 }
