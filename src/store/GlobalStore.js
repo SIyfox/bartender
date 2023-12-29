@@ -365,7 +365,7 @@ export default class GlobalStore {
             ,
             {
                 id:"7",
-                ItemName:"Смешная нарезка ✂",
+                ItemName:"Смешная нарезка",
                 ItemImage:image_7,
                 ItemPositionX:'33%',
                 ItemPositionY:'50%',
