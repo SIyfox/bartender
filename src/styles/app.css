@@ -204,18 +204,20 @@
     height: 100px;
     overflow-y: scroll;
     width: 250px;
-    bottom: -10px;
+    bottom: 30px;
     left: 30px;
     font-family: 'Pixel';
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     white-space: pre-line;
+    
 }
 .item_info_text_res{
     margin-bottom: 5px;
     font-family: 'Pixel';
     font-size: 10px;
     color: white;
+    line-height: 6px;
 }
 
 
